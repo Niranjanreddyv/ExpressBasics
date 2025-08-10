@@ -29,7 +29,7 @@ function mid2(req, res, next){
 // what to do if someone raise a GET request to /hello
 app.get('/hello', [mid1, mid2], (req,res)=>{ 
     return res.json({
-        message : "World hii.."
+        message : "World hii......"
     })
 })
 
