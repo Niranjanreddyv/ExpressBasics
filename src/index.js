@@ -17,7 +17,7 @@ app.use(morgan('combined'));
 // app.use(commonMiddleware); // all routes it will call
 
 function mid1(req, res, next){
-    console.log("mid1 ");
+    console.log("mid1q ");
     next();
 }
 
